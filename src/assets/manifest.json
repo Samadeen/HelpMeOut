@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "HelpMeOut",
+  "description": "An extension for recording user screen with a webcam",
+  "version": "1.0.0",
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "permissions": ["tabs", "bookmarks", "storage", "identity", "activeTab"],
+  "action": {
+    "default_title": "Click Me",
+    "default_popup": "popup.html"
+  }
+}
